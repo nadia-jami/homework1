@@ -121,7 +121,7 @@ main .welcome a , .buttom a , .buttom span{
 }
 .link{
     clear: both;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 a{
     text-decoration: none;
