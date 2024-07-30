@@ -115,7 +115,7 @@ main .welcome img{
 main .welcome a , .buttom a , .buttom span{
    background-color: blue;
    color: white;
-   padding: 20px 30px;
+   padding: 10px 30px;
    border-radius: 10px;
    
 }
