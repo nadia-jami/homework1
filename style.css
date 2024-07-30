@@ -1,0 +1,180 @@
+/* ------------------ RESET ------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Custom Styles */
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+header{
+    background-color: blue;
+    color: white;
+    padding: 30px 0px 30px;
+   
+
+}
+.header-content{
+    width: 80%;
+    margin: 0 auto;
+}
+header h1{
+    display: inline-block;
+    font-size: 33px;
+    font-weight: bold;
+
+}
+nav{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.active{
+  background-color: white;
+ 
+}
+.active a{
+    color:blue
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+main .welcome{
+    border: 3px solid rgb(199, 195, 195);
+    padding: 50px 30px 50px;
+    margin-top: 35px;
+}
+main .welcome h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+main .welcome img{
+    float: left;
+    margin-right: 31px;
+    width: 32%;
+
+}
+.para{
+    margin-top: 10px;
+}
+main .welcome a , .buttom a , .buttom span{
+   background-color: blue;
+   color: white;
+   padding: 10px 30px;
+   border-radius: 10px;
+   
+}
+.link{
+    clear: both;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+
+}
+h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+.buttom{
+    margin-top: 60px;
+}
+.buttom a ,.buttom span{
+    font-size: 15px;
+}
+.buttom span{
+    padding: 5px 20px;
+}
+.left{
+    width: 40%;
+    display: inline-block;
+}
+.right{
+    width: 55%;
+    display: inline-block;
+    padding-left: 30px ;
+}
+.box{
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(199, 195, 195);
+    padding: 20px 0;
+}
+.box p{
+    margin-top: 10px;
+}
+.box-noborder{
+    border: none;
+}
+
+.right-box {
+   padding: 40px 0px;
+}
+.with-border{
+    border-bottom: 1px solid rgb(199, 195, 195);
+}
+.right-box p{
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+footer{
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+    color: rgb(202, 198, 198);
+    margin-top: 50px;
+}
